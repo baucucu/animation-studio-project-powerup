@@ -11,6 +11,7 @@ const Brief = () => {
 
   const openModal = () => {
     console.log("modal open clicked!")
+    window.top.postMessage('hello', '*')
     t.modal({
       // the url to load for the iframe
       url: 'https://studioflow.typeform.com/brief',
