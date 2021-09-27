@@ -4,14 +4,11 @@ import { Page, Navbar, Block, BlockTitle, Button } from 'framework7-react';
 // var Promise = TrelloPowerUp.Promise;
 
 
-const Brief = () => {
+const Brief = (props) => {
+  const {isCompleted = true} = props
   var t = TrelloPowerUp.iframe();
 
-  console.log("t from react: ", t)
-
   const openModal = () => {
-    console.log("modal open clicked!")
-    window.top.postMessage('hello', '*')
     t.modal({
       // the url to load for the iframe
       url: 'https://studioflow.typeform.com/brief',
@@ -26,14 +23,8 @@ const Brief = () => {
 
   return (
     <>
-      <BlockTitle>Brief</BlockTitle>
-      <Button onClick={openModal}
-      >
-        Open modal
-    </Button>
-      {/* <Block>
-        <iframe width="100%" height="500px"  src="https://studioflow.typeform.com/brief" title="Brief"></iframe>
-      </Block> */}
+      {/* <BlockTitle>Brief</BlockTitle> */}
+      <Button onClick={openModal}>Open modal</Button>
     </>
   );
 }
