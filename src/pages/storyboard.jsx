@@ -22,7 +22,7 @@ const Storyboard = () => {
     <>
       <Block>
         <Button fill raised color="purple" onClick={openModal}>
-          <Icon f7="photo" style={{marginRight:8}} slot="icon" iconSize="small"></Icon>
+          <Icon f7="photo" style={{marginRight:8}} slot="icon" size="small"></Icon>
           Open storyboard
         </Button>
       </Block>
