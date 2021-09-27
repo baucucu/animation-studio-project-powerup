@@ -5,7 +5,7 @@ const Brief = () => (
   <>
     <BlockTitle>Brief</BlockTitle>
     <Block>
-      <iframe width="360px" height="500px"  src="https://studioflow.typeform.com/brief" title="Brief"></iframe>
+      <iframe width="100%" height="500px"  src="https://studioflow.typeform.com/brief" title="Brief"></iframe>
     </Block>
   </>
 );
