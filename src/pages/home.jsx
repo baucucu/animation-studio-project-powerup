@@ -67,7 +67,7 @@ const HomePage = () => {
     >Delivery</Link>
   </Toolbar>
 
-  <Tabs swipeable>
+  <Tabs>
     <Tab id="tab-1" className="page-content" tabActive>
       <Block>
         <p>Brief</p>
