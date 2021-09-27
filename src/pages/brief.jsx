@@ -1,5 +1,5 @@
 import React, {useEffect,useState} from 'react';
-import { Page, Navbar, Block, BlockTitle, Button } from 'framework7-react';
+import { Page, Navbar, Block, BlockTitle, Button, Icon } from 'framework7-react';
 
 // var Promise = TrelloPowerUp.Promise;
 
@@ -24,7 +24,10 @@ const Brief = (props) => {
   return (
     <>
       {/* <BlockTitle>Brief</BlockTitle> */}
-      <Button onClick={openModal}>Open modal</Button>
+      <Button fill raised color="purple" onClick={openModal}>
+        <Icon f7="textbox" style={{marginRight:8}} slot="icon"></Icon>
+        Open brief form
+      </Button>
     </>
   );
 }
