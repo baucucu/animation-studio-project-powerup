@@ -7,7 +7,7 @@ import { Page, Navbar, Block, BlockTitle, Button } from 'framework7-react';
 const Brief = () => {
   var t = TrelloPowerUp.iframe();
 
-  console.log("t: ", t)
+  console.log("t from react: ", t)
 
   const openModal = () => {
     console.log("modal open clicked!")
