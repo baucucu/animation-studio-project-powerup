@@ -7,42 +7,42 @@ const HomePage = () => (
     <Link
       tabLink="#tab-1"
       tabLinkActive
-      text="Tab 1"
+      text="Brief"
       iconIos="f7:envelope_fill"
       iconAurora="f7:envelope_fill"
       iconMd="material:email"
     ></Link>
     <Link
       tabLink="#tab-2"
-      text="Tab 2"
+      text="Manuscript"
       iconIos="f7:calendar_fill"
       iconAurora="f7:calendar_fill"
       iconMd="material:today"
     ></Link>
     <Link
       tabLink="#tab-3"
-      text="Tab 3"
+      text="Storyboard/Style"
       iconIos="f7:cloud_upload_fill"
       iconAurora="f7:cloud_upload_fill"
       iconMd="material:file_upload"
     ></Link>
     <Link
       tabLink="#tab-4"
-      text="Tab 4"
+      text="Illustrations"
       iconIos="f7:envelope_fill"
       iconAurora="f7:envelope_fill"
       iconMd="material:email"
     ></Link>
     <Link
       tabLink="#tab-5"
-      text="Tab 5"
+      text="Animation"
       iconIos="f7:calendar_fill"
       iconAurora="f7:calendar_fill"
       iconMd="material:today"
     ></Link>
     <Link
       tabLink="#tab-6"
-      text="Tab 6"
+      text="Delivery"
       iconIos="f7:cloud_upload_fill"
       iconAurora="f7:cloud_upload_fill"
       iconMd="material:file_upload"
@@ -52,130 +52,40 @@ const HomePage = () => (
   <Tabs>
     <Tab id="tab-1" className="page-content" tabActive>
       <Block>
-        <p>Tab 1 content</p>
+        <p>Brief</p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
           facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
           suscipit temporibus sequi iure ad laboriosam accusamus?
         </p>
-        <p>
-          Saepe explicabo voluptas ducimus provident, doloremque quo totam molestias! Suscipit
-          blanditiis eaque exercitationem praesentium reprehenderit, fuga accusamus possimus
-          sed, sint facilis ratione quod, qui dignissimos voluptas! Aliquam rerum consequuntur
-          deleniti.
-        </p>
-        <p>
-          Totam reprehenderit amet commodi ipsum nam provident doloremque possimus odio itaque,
-          est animi culpa modi consequatur reiciendis corporis libero laudantium sed eveniet
-          unde delectus a maiores nihil dolores? Natus, perferendis.
-        </p>
-        <p>
-          Atque quis totam repellendus omnis alias magnam corrupti, possimus aspernatur
-          perspiciatis quae provident consequatur minima doloremque blanditiis nihil maxime
-          ducimus earum autem. Magni animi blanditiis similique iusto, repellat sed quisquam!
-        </p>
-        <p>
-          Suscipit, facere quasi atque totam. Repudiandae facilis at optio atque, rem nam, natus
-          ratione cum enim voluptatem suscipit veniam! Repellat, est debitis. Modi nam mollitia
-          explicabo, unde aliquid impedit! Adipisci!
-        </p>
-        <p>
-          Deserunt adipisci tempora asperiores, quo, nisi ex delectus vitae consectetur iste
-          fugiat iusto dolorem autem. Itaque, ipsa voluptas, a assumenda rem, dolorum porro
-          accusantium, officiis veniam nostrum cum cumque impedit.
-        </p>
-        <p>
-          Laborum illum ipsa voluptatibus possimus nesciunt ex consequatur rem, natus ad
-          praesentium rerum libero consectetur temporibus cupiditate atque aspernatur, eaque
-          provident eligendi quaerat ea soluta doloremque. Iure fugit, minima facere.
-        </p>
+        
       </Block>
     </Tab>
     <Tab id="tab-2" className="page-content">
       <Block>
-        <p>Tab 2 content</p>
+        <p>Manuscript</p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
           facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
           suscipit temporibus sequi iure ad laboriosam accusamus?
         </p>
-        <p>
-          Saepe explicabo voluptas ducimus provident, doloremque quo totam molestias! Suscipit
-          blanditiis eaque exercitationem praesentium reprehenderit, fuga accusamus possimus
-          sed, sint facilis ratione quod, qui dignissimos voluptas! Aliquam rerum consequuntur
-          deleniti.
-        </p>
-        <p>
-          Totam reprehenderit amet commodi ipsum nam provident doloremque possimus odio itaque,
-          est animi culpa modi consequatur reiciendis corporis libero laudantium sed eveniet
-          unde delectus a maiores nihil dolores? Natus, perferendis.
-        </p>
-        <p>
-          Atque quis totam repellendus omnis alias magnam corrupti, possimus aspernatur
-          perspiciatis quae provident consequatur minima doloremque blanditiis nihil maxime
-          ducimus earum autem. Magni animi blanditiis similique iusto, repellat sed quisquam!
-        </p>
-        <p>
-          Suscipit, facere quasi atque totam. Repudiandae facilis at optio atque, rem nam, natus
-          ratione cum enim voluptatem suscipit veniam! Repellat, est debitis. Modi nam mollitia
-          explicabo, unde aliquid impedit! Adipisci!
-        </p>
-        <p>
-          Deserunt adipisci tempora asperiores, quo, nisi ex delectus vitae consectetur iste
-          fugiat iusto dolorem autem. Itaque, ipsa voluptas, a assumenda rem, dolorum porro
-          accusantium, officiis veniam nostrum cum cumque impedit.
-        </p>
-        <p>
-          Laborum illum ipsa voluptatibus possimus nesciunt ex consequatur rem, natus ad
-          praesentium rerum libero consectetur temporibus cupiditate atque aspernatur, eaque
-          provident eligendi quaerat ea soluta doloremque. Iure fugit, minima facere.
-        </p>
+       
       </Block>
     </Tab>
     <Tab id="tab-3" className="page-content">
       <Block>
-        <p>Tab 3 content</p>
+        <p>Storyboard/Style</p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
           facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
           suscipit temporibus sequi iure ad laboriosam accusamus?
         </p>
-        <p>
-          Saepe explicabo voluptas ducimus provident, doloremque quo totam molestias! Suscipit
-          blanditiis eaque exercitationem praesentium reprehenderit, fuga accusamus possimus
-          sed, sint facilis ratione quod, qui dignissimos voluptas! Aliquam rerum consequuntur
-          deleniti.
-        </p>
-        <p>
-          Totam reprehenderit amet commodi ipsum nam provident doloremque possimus odio itaque,
-          est animi culpa modi consequatur reiciendis corporis libero laudantium sed eveniet
-          unde delectus a maiores nihil dolores? Natus, perferendis.
-        </p>
-        <p>
-          Atque quis totam repellendus omnis alias magnam corrupti, possimus aspernatur
-          perspiciatis quae provident consequatur minima doloremque blanditiis nihil maxime
-          ducimus earum autem. Magni animi blanditiis similique iusto, repellat sed quisquam!
-        </p>
-        <p>
-          Suscipit, facere quasi atque totam. Repudiandae facilis at optio atque, rem nam, natus
-          ratione cum enim voluptatem suscipit veniam! Repellat, est debitis. Modi nam mollitia
-          explicabo, unde aliquid impedit! Adipisci!
-        </p>
-        <p>
-          Deserunt adipisci tempora asperiores, quo, nisi ex delectus vitae consectetur iste
-          fugiat iusto dolorem autem. Itaque, ipsa voluptas, a assumenda rem, dolorum porro
-          accusantium, officiis veniam nostrum cum cumque impedit.
-        </p>
-        <p>
-          Laborum illum ipsa voluptatibus possimus nesciunt ex consequatur rem, natus ad
-          praesentium rerum libero consectetur temporibus cupiditate atque aspernatur, eaque
-          provident eligendi quaerat ea soluta doloremque. Iure fugit, minima facere.
-        </p>
+        
       </Block>
     </Tab>
     <Tab id="tab-4" className="page-content" >
       <Block>
-        <p>Tab 1 content</p>
+        <p>Illustrations</p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
           facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
@@ -185,7 +95,7 @@ const HomePage = () => (
     </Tab>
     <Tab id="tab-5" className="page-content" >
       <Block>
-        <p>Tab 1 content</p>
+        <p>Animation</p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
           facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
@@ -195,7 +105,7 @@ const HomePage = () => (
     </Tab>
     <Tab id="tab-6" className="page-content" >
       <Block>
-        <p>Tab 1 content</p>
+        <p>Delivery</p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
           facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
