@@ -5,55 +5,63 @@ const HomePage = () => (
   <Page>
     <Toolbar tabbar labels position="top">
     <Link
+      style={{fontSize:'10px'}}
       tabLink="#tab-1"
       tabLinkActive
-      text="Brief"
+      // text="Brief"
       iconIos="f7:envelope_fill"
       iconAurora="f7:envelope_fill"
       iconMd="material:email"
-    ></Link>
+      iconSize="medium"
+    >Brief</Link>
     <Link
+      style={{fontSize:'10px'}}
       tabLink="#tab-2"
-      text="Manuscript"
+      // text="Manuscript"
       iconIos="f7:calendar_fill"
       iconAurora="f7:calendar_fill"
       iconMd="material:today"
-    ></Link>
+    >Manuscript</Link>
     <Link
+      style={{fontSize:'10px'}}
       tabLink="#tab-3"
-      text="Voiceover"
+      // text="Voiceover"
       iconIos="f7:calendar_fill"
       iconAurora="f7:calendar_fill"
       iconMd="material:today"
-    ></Link>
+    >Voiceover</Link>
     <Link
+      style={{fontSize:'10px'}}
       tabLink="#tab-4"
-      text="Storyboard"
+      // text="Storyboard"
       iconIos="f7:cloud_upload_fill"
       iconAurora="f7:cloud_upload_fill"
       iconMd="material:file_upload"
-    ></Link>
+    >Storyboard</Link>
     <Link
+      style={{fontSize:'10px'}}
       tabLink="#tab-5"
-      text="Illustrations"
+      // text="Illustrations"
       iconIos="f7:envelope_fill"
       iconAurora="f7:envelope_fill"
       iconMd="material:email"
-    ></Link>
+    >Illustrations</Link>
     <Link
+      style={{fontSize:'10px'}}
       tabLink="#tab-6"
-      text="Animation"
+      // text="Animation"
       iconIos="f7:calendar_fill"
       iconAurora="f7:calendar_fill"
       iconMd="material:today"
-    ></Link>
+    >Animation</Link>
     <Link
+      style={{fontSize:'10px'}}
       tabLink="#tab-7"
-      text="Delivery"
+      // text="Delivery"
       iconIos="f7:cloud_upload_fill"
       iconAurora="f7:cloud_upload_fill"
       iconMd="material:file_upload"
-    ></Link>
+    >Delivery</Link>
   </Toolbar>
 
   <Tabs>
