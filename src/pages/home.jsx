@@ -1,11 +1,14 @@
 import React from 'react';
 import { Page, Navbar, Block, BlockTitle, Tabs, Toolbar, Link, Tab } from 'framework7-react';
 
-const HomePage = () => (
+const HomePage = () => {
+  const tabFontSize = '9px';
+  
+  return (
   <Page>
     <Toolbar tabbar labels position="top">
     <Link
-      style={{fontSize:'10px'}}
+      style={{fontSize:tabFontSize}}
       tabLink="#tab-1"
       tabLinkActive
       // text="Brief"
@@ -15,56 +18,56 @@ const HomePage = () => (
       iconSize="medium"
     >Brief</Link>
     <Link
-      style={{fontSize:'10px'}}
+      style={{fontSize:tabFontSize}}
       tabLink="#tab-2"
-      // text="Manuscript"
       iconIos="f7:calendar_fill"
       iconAurora="f7:calendar_fill"
       iconMd="material:today"
+      iconSize="medium"
     >Manuscript</Link>
     <Link
-      style={{fontSize:'10px'}}
+      style={{fontSize:tabFontSize}}
       tabLink="#tab-3"
-      // text="Voiceover"
       iconIos="f7:calendar_fill"
       iconAurora="f7:calendar_fill"
       iconMd="material:today"
+      iconSize="medium"
     >Voiceover</Link>
     <Link
-      style={{fontSize:'10px'}}
+      style={{fontSize:tabFontSize}}
       tabLink="#tab-4"
-      // text="Storyboard"
       iconIos="f7:cloud_upload_fill"
       iconAurora="f7:cloud_upload_fill"
       iconMd="material:file_upload"
+      iconSize="medium"
     >Storyboard</Link>
     <Link
-      style={{fontSize:'10px'}}
+      style={{fontSize:tabFontSize}}
       tabLink="#tab-5"
-      // text="Illustrations"
       iconIos="f7:envelope_fill"
       iconAurora="f7:envelope_fill"
       iconMd="material:email"
+      iconSize="medium"
     >Illustrations</Link>
     <Link
-      style={{fontSize:'10px'}}
+      style={{fontSize:tabFontSize}}
       tabLink="#tab-6"
-      // text="Animation"
       iconIos="f7:calendar_fill"
       iconAurora="f7:calendar_fill"
       iconMd="material:today"
+      iconSize="medium"
     >Animation</Link>
     <Link
-      style={{fontSize:'10px'}}
+      style={{fontSize:tabFontSize}}
       tabLink="#tab-7"
-      // text="Delivery"
       iconIos="f7:cloud_upload_fill"
       iconAurora="f7:cloud_upload_fill"
       iconMd="material:file_upload"
+      iconSize="medium"
     >Delivery</Link>
   </Toolbar>
 
-  <Tabs>
+  <Tabs swipeable>
     <Tab id="tab-1" className="page-content" tabActive>
       <Block>
         <p>Brief</p>
@@ -140,6 +143,7 @@ const HomePage = () => (
     </Tab>
   </Tabs>
   </Page>
-);
+
+)};
 
 export default HomePage;
