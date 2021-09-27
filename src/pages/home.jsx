@@ -1,18 +1,158 @@
 import React from 'react';
-import { Page, Navbar, Block, BlockTitle } from 'framework7-react';
+import { Page, Navbar, Block, BlockTitle, Tabs, Toolbar, Link, Tab } from 'framework7-react';
 
 const HomePage = () => (
   <Page>
-    <BlockTitle>About My App</BlockTitle>
-    <Block strong>
-      <p>Fugiat perspiciatis excepturi, soluta quod non ullam deleniti. Nobis sint nemo consequuntur, fugiat. Eius perferendis animi autem incidunt vel quod tenetur nostrum, voluptate omnis quasi quidem illum consequuntur, a, quisquam.</p>
-      <p>Laudantium neque magnam vitae nemo quam commodi, in cum dolore obcaecati laborum, excepturi harum, optio qui, consequuntur? Obcaecati dolor sequi nesciunt culpa quia perspiciatis, reiciendis ex debitis, ut tenetur alias.</p>
-    </Block>
-    <Block strong>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni molestiae laudantium dignissimos est nobis delectus nemo ea alias voluptatum architecto, amet similique, saepe iste consectetur in repellat ut minus quibusdam!</p>
-      <p>Molestias et distinctio porro nesciunt ratione similique, magni doloribus, rerum nobis, aliquam quae reiciendis quasi modi. Nam a recusandae, fugiat in ea voluptates fuga eius, velit corrupti reprehenderit dignissimos consequatur!</p>
-      <p>Blanditiis, cumque quo adipisci. Molestiae, dolores dolorum quos doloremque ipsa ullam eligendi commodi deserunt doloribus inventore magni? Ea mollitia veniam nostrum nihil, iusto doloribus a at! Ea molestiae ullam delectus!</p>
-    </Block>
+    <Toolbar tabbar labels position={isBottom ? 'bottom' : 'top'}>
+    <Link
+      tabLink="#tab-1"
+      tabLinkActive
+      text="Tab 1"
+      iconIos="f7:envelope_fill"
+      iconAurora="f7:envelope_fill"
+      iconMd="material:email"
+    ></Link>
+    <Link
+      tabLink="#tab-2"
+      text="Tab 2"
+      iconIos="f7:calendar_fill"
+      iconAurora="f7:calendar_fill"
+      iconMd="material:today"
+    ></Link>
+    <Link
+      tabLink="#tab-3"
+      text="Tab 3"
+      iconIos="f7:cloud_upload_fill"
+      iconAurora="f7:cloud_upload_fill"
+      iconMd="material:file_upload"
+    ></Link>
+  </Toolbar>
+
+  <Tabs>
+    <Tab id="tab-1" className="page-content" tabActive>
+      <Block>
+        <p>Tab 1 content</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
+          facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
+          suscipit temporibus sequi iure ad laboriosam accusamus?
+        </p>
+        <p>
+          Saepe explicabo voluptas ducimus provident, doloremque quo totam molestias! Suscipit
+          blanditiis eaque exercitationem praesentium reprehenderit, fuga accusamus possimus
+          sed, sint facilis ratione quod, qui dignissimos voluptas! Aliquam rerum consequuntur
+          deleniti.
+        </p>
+        <p>
+          Totam reprehenderit amet commodi ipsum nam provident doloremque possimus odio itaque,
+          est animi culpa modi consequatur reiciendis corporis libero laudantium sed eveniet
+          unde delectus a maiores nihil dolores? Natus, perferendis.
+        </p>
+        <p>
+          Atque quis totam repellendus omnis alias magnam corrupti, possimus aspernatur
+          perspiciatis quae provident consequatur minima doloremque blanditiis nihil maxime
+          ducimus earum autem. Magni animi blanditiis similique iusto, repellat sed quisquam!
+        </p>
+        <p>
+          Suscipit, facere quasi atque totam. Repudiandae facilis at optio atque, rem nam, natus
+          ratione cum enim voluptatem suscipit veniam! Repellat, est debitis. Modi nam mollitia
+          explicabo, unde aliquid impedit! Adipisci!
+        </p>
+        <p>
+          Deserunt adipisci tempora asperiores, quo, nisi ex delectus vitae consectetur iste
+          fugiat iusto dolorem autem. Itaque, ipsa voluptas, a assumenda rem, dolorum porro
+          accusantium, officiis veniam nostrum cum cumque impedit.
+        </p>
+        <p>
+          Laborum illum ipsa voluptatibus possimus nesciunt ex consequatur rem, natus ad
+          praesentium rerum libero consectetur temporibus cupiditate atque aspernatur, eaque
+          provident eligendi quaerat ea soluta doloremque. Iure fugit, minima facere.
+        </p>
+      </Block>
+    </Tab>
+    <Tab id="tab-2" className="page-content">
+      <Block>
+        <p>Tab 2 content</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
+          facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
+          suscipit temporibus sequi iure ad laboriosam accusamus?
+        </p>
+        <p>
+          Saepe explicabo voluptas ducimus provident, doloremque quo totam molestias! Suscipit
+          blanditiis eaque exercitationem praesentium reprehenderit, fuga accusamus possimus
+          sed, sint facilis ratione quod, qui dignissimos voluptas! Aliquam rerum consequuntur
+          deleniti.
+        </p>
+        <p>
+          Totam reprehenderit amet commodi ipsum nam provident doloremque possimus odio itaque,
+          est animi culpa modi consequatur reiciendis corporis libero laudantium sed eveniet
+          unde delectus a maiores nihil dolores? Natus, perferendis.
+        </p>
+        <p>
+          Atque quis totam repellendus omnis alias magnam corrupti, possimus aspernatur
+          perspiciatis quae provident consequatur minima doloremque blanditiis nihil maxime
+          ducimus earum autem. Magni animi blanditiis similique iusto, repellat sed quisquam!
+        </p>
+        <p>
+          Suscipit, facere quasi atque totam. Repudiandae facilis at optio atque, rem nam, natus
+          ratione cum enim voluptatem suscipit veniam! Repellat, est debitis. Modi nam mollitia
+          explicabo, unde aliquid impedit! Adipisci!
+        </p>
+        <p>
+          Deserunt adipisci tempora asperiores, quo, nisi ex delectus vitae consectetur iste
+          fugiat iusto dolorem autem. Itaque, ipsa voluptas, a assumenda rem, dolorum porro
+          accusantium, officiis veniam nostrum cum cumque impedit.
+        </p>
+        <p>
+          Laborum illum ipsa voluptatibus possimus nesciunt ex consequatur rem, natus ad
+          praesentium rerum libero consectetur temporibus cupiditate atque aspernatur, eaque
+          provident eligendi quaerat ea soluta doloremque. Iure fugit, minima facere.
+        </p>
+      </Block>
+    </Tab>
+    <Tab id="tab-3" className="page-content">
+      <Block>
+        <p>Tab 3 content</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
+          facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
+          suscipit temporibus sequi iure ad laboriosam accusamus?
+        </p>
+        <p>
+          Saepe explicabo voluptas ducimus provident, doloremque quo totam molestias! Suscipit
+          blanditiis eaque exercitationem praesentium reprehenderit, fuga accusamus possimus
+          sed, sint facilis ratione quod, qui dignissimos voluptas! Aliquam rerum consequuntur
+          deleniti.
+        </p>
+        <p>
+          Totam reprehenderit amet commodi ipsum nam provident doloremque possimus odio itaque,
+          est animi culpa modi consequatur reiciendis corporis libero laudantium sed eveniet
+          unde delectus a maiores nihil dolores? Natus, perferendis.
+        </p>
+        <p>
+          Atque quis totam repellendus omnis alias magnam corrupti, possimus aspernatur
+          perspiciatis quae provident consequatur minima doloremque blanditiis nihil maxime
+          ducimus earum autem. Magni animi blanditiis similique iusto, repellat sed quisquam!
+        </p>
+        <p>
+          Suscipit, facere quasi atque totam. Repudiandae facilis at optio atque, rem nam, natus
+          ratione cum enim voluptatem suscipit veniam! Repellat, est debitis. Modi nam mollitia
+          explicabo, unde aliquid impedit! Adipisci!
+        </p>
+        <p>
+          Deserunt adipisci tempora asperiores, quo, nisi ex delectus vitae consectetur iste
+          fugiat iusto dolorem autem. Itaque, ipsa voluptas, a assumenda rem, dolorum porro
+          accusantium, officiis veniam nostrum cum cumque impedit.
+        </p>
+        <p>
+          Laborum illum ipsa voluptatibus possimus nesciunt ex consequatur rem, natus ad
+          praesentium rerum libero consectetur temporibus cupiditate atque aspernatur, eaque
+          provident eligendi quaerat ea soluta doloremque. Iure fugit, minima facere.
+        </p>
+      </Block>
+    </Tab>
+  </Tabs>
   </Page>
 );
 
