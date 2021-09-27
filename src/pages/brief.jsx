@@ -29,9 +29,9 @@ const Brief = () => {
       >
         Open modal
     </Button>
-      <Block>
+      {/* <Block>
         <iframe width="100%" height="500px"  src="https://studioflow.typeform.com/brief" title="Brief"></iframe>
-      </Block>
+      </Block> */}
     </>
   );
 }
