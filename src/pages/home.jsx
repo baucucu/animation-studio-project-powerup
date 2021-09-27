@@ -3,7 +3,7 @@ import { Page, Navbar, Block, BlockTitle, Tabs, Toolbar, Link, Tab } from 'frame
 
 const HomePage = () => (
   <Page>
-    <Toolbar tabbar labels position={isBottom ? 'bottom' : 'top'}>
+    <Toolbar tabbar labels position="top">
     <Link
       tabLink="#tab-1"
       tabLinkActive
@@ -22,6 +22,27 @@ const HomePage = () => (
     <Link
       tabLink="#tab-3"
       text="Tab 3"
+      iconIos="f7:cloud_upload_fill"
+      iconAurora="f7:cloud_upload_fill"
+      iconMd="material:file_upload"
+    ></Link>
+    <Link
+      tabLink="#tab-4"
+      text="Tab 4"
+      iconIos="f7:envelope_fill"
+      iconAurora="f7:envelope_fill"
+      iconMd="material:email"
+    ></Link>
+    <Link
+      tabLink="#tab-5"
+      text="Tab 5"
+      iconIos="f7:calendar_fill"
+      iconAurora="f7:calendar_fill"
+      iconMd="material:today"
+    ></Link>
+    <Link
+      tabLink="#tab-6"
+      text="Tab 6"
       iconIos="f7:cloud_upload_fill"
       iconAurora="f7:cloud_upload_fill"
       iconMd="material:file_upload"
@@ -149,6 +170,36 @@ const HomePage = () => (
           Laborum illum ipsa voluptatibus possimus nesciunt ex consequatur rem, natus ad
           praesentium rerum libero consectetur temporibus cupiditate atque aspernatur, eaque
           provident eligendi quaerat ea soluta doloremque. Iure fugit, minima facere.
+        </p>
+      </Block>
+    </Tab>
+    <Tab id="tab-4" className="page-content" >
+      <Block>
+        <p>Tab 1 content</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
+          facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
+          suscipit temporibus sequi iure ad laboriosam accusamus?
+        </p>
+      </Block>
+    </Tab>
+    <Tab id="tab-5" className="page-content" >
+      <Block>
+        <p>Tab 1 content</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
+          facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
+          suscipit temporibus sequi iure ad laboriosam accusamus?
+        </p>
+      </Block>
+    </Tab>
+    <Tab id="tab-6" className="page-content" >
+      <Block>
+        <p>Tab 1 content</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
+          facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
+          suscipit temporibus sequi iure ad laboriosam accusamus?
         </p>
       </Block>
     </Tab>
