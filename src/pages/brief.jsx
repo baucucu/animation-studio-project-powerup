@@ -4,7 +4,7 @@ import { Page, Navbar, Block, BlockTitle, Button, Icon } from 'framework7-react'
 // var Promise = TrelloPowerUp.Promise;
 
 
-const Brief = ({isCompleted = true}) => {
+const Brief = ({isCompleted = Math.round(Math.random())}) => {
   var t = TrelloPowerUp.iframe();
 
   const openModal = () => {
