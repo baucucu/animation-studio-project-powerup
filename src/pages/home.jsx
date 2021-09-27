@@ -1,5 +1,5 @@
 import React from 'react';
-import { Page, Navbar, Block, BlockTitle, Tabs, Toolbar, Link, Tab } from 'framework7-react';
+import { Page, Icon, Badge, Tabs, Toolbar, Link, Tab } from 'framework7-react';
 import Brief from './brief'
 import Manuscript from './manuscript'
 import Voiceover from './voiceover'
@@ -18,45 +18,80 @@ const HomePage = () => {
       style={{fontSize:tabFontSize}}
       tabLink="#tab-1"
       tabLinkActive
-      iconF7="textbox"
-      iconSize="medium"
-    >Brief</Link>
+    >
+      Brief
+      <Icon f7="textbox" size="medium" slot="icon">
+        <Badge color="green" style={{marginLeft:4}}>
+          <Icon f7="checkmark_alt" size="small" ></Icon>
+        </Badge>
+      </Icon>
+    </Link>
     <Link
       style={{fontSize:tabFontSize}}
       tabLink="#tab-2"
-      iconF7="doc_plaintext"
-      iconSize="medium"
-    >Manuscript</Link>
+    >
+      Manuscript
+      <Icon f7="doc_plaintext" size="medium" slot="icon">
+        <Badge color="deeporange" style={{marginLeft:4}}>
+          <Icon f7="alarm" size="small" ></Icon>
+        </Badge>
+      </Icon>
+    </Link>
     <Link
       style={{fontSize:tabFontSize}}
       tabLink="#tab-3"
-      iconF7="music_mic"
-      iconSize="medium"
-    >Voiceover</Link>
+    >
+      Voiceover
+      <Icon f7="music_mic" size="medium" slot="icon">
+        <Badge color="deeppurple" style={{marginLeft:4}}>
+          <Icon f7="lock" size="small" ></Icon>
+        </Badge>
+      </Icon>
+    </Link>
     <Link
       style={{fontSize:tabFontSize}}
       tabLink="#tab-4"
-      iconF7="photo"
-      iconSize="medium"
-    >Storyboard</Link>
+    >
+      Storyboard
+      <Icon f7="photo" size="medium" slot="icon">
+        <Badge color="deeppurple" style={{marginLeft:4}}>
+          <Icon f7="lock" size="small" ></Icon>
+        </Badge>
+      </Icon>
+    </Link>
     <Link
       style={{fontSize:tabFontSize}}
       tabLink="#tab-5"
-      iconF7="doc_richtext"
-      iconSize="medium"
-    >Illustrations</Link>
+    >
+      Illustrations
+      <Icon f7="doc_richtext" size="medium" slot="icon">
+        <Badge color="deeppurple" style={{marginLeft:4}}>
+          <Icon f7="lock" size="small" ></Icon>
+        </Badge>
+      </Icon>
+    </Link>
     <Link
       style={{fontSize:tabFontSize}}
       tabLink="#tab-6"
-      iconF7="play_rectangle"
-      iconSize="medium"
-    >Animation</Link>
+    >
+      Animation
+      <Icon f7="play_rectangle" size="medium" slot="icon">
+        <Badge color="deeppurple" style={{marginLeft:4}}>
+          <Icon f7="lock" size="small" ></Icon>
+        </Badge>
+      </Icon>
+    </Link>
     <Link
       style={{fontSize:tabFontSize}}
       tabLink="#tab-7"
-      iconF7="rocket"
-      iconSize="medium"
-    >Delivery</Link>
+    >
+      Delivery
+      <Icon f7="rocket" size="medium" slot="icon">
+        <Badge color="deeppurple" style={{marginLeft:4}}>
+          <Icon f7="lock" size="small" ></Icon>
+        </Badge>
+      </Icon>
+    </Link>
   </Toolbar>
 
   <Tabs animated>
