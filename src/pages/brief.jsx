@@ -22,13 +22,12 @@ const Brief = (props) => {
 
 
   return (
-    <>
-      {/* <BlockTitle>Brief</BlockTitle> */}
+    <Block>
       <Button fill raised color="purple" onClick={openModal}>
         <Icon f7="textbox" style={{marginRight:8}} slot="icon"></Icon>
         Open brief form
       </Button>
-    </>
+    </Block>
   );
 }
 
