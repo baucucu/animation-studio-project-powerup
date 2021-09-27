@@ -9,7 +9,8 @@ const Brief = () => {
 
   console.log("t: ", t)
 
-  const openModal = (event,t) => {
+  const openModal = () => {
+    console.log("modal open clicked!")
     t.modal({
       // the url to load for the iframe
       url: 'https://studioflow.typeform.com/brief',
@@ -25,7 +26,7 @@ const Brief = () => {
   return (
     <>
       <BlockTitle>Brief</BlockTitle>
-      <Button onClick={event=> {openModal(event, t)}}
+      <Button onClick={openModal}
       >
         Open modal
     </Button>
