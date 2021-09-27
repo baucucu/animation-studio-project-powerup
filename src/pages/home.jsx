@@ -1,5 +1,12 @@
 import React from 'react';
 import { Page, Navbar, Block, BlockTitle, Tabs, Toolbar, Link, Tab } from 'framework7-react';
+import Brief from './brief'
+import Manuscript from './manuscript'
+import Voiceover from './voiceover'
+import Storyboard from './storyboard'
+import Illustrations from './illustrations'
+import Animation from './animation'
+import Delivery from './delivery'
 
 const HomePage = () => {
   const tabFontSize = '9px';
@@ -69,77 +76,25 @@ const HomePage = () => {
 
   <Tabs>
     <Tab id="tab-1" className="page-content" tabActive>
-      <Block>
-        <p>Brief</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
-          facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
-          suscipit temporibus sequi iure ad laboriosam accusamus?
-        </p>
-        
-      </Block>
+      <Brief/>
     </Tab>
     <Tab id="tab-2" className="page-content">
-      <Block>
-        <p>Manuscript</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
-          facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
-          suscipit temporibus sequi iure ad laboriosam accusamus?
-        </p>
-       
-      </Block>
+      <Manuscript />
     </Tab>
     <Tab id="tab-3" className="page-content">
-      <Block>
-        <p>Voiceover</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
-          facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
-          suscipit temporibus sequi iure ad laboriosam accusamus?
-        </p>
-        
-      </Block>
+      <Voiceover/>
     </Tab>
     <Tab id="tab-4" className="page-content" >
-      <Block>
-        <p>Storyboard</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
-          facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
-          suscipit temporibus sequi iure ad laboriosam accusamus?
-        </p>
-      </Block>
+      <Storyboard/>
     </Tab>
     <Tab id="tab-5" className="page-content" >
-      <Block>
-        <p>Illustrations</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
-          facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
-          suscipit temporibus sequi iure ad laboriosam accusamus?
-        </p>
-      </Block>
+      <Illustrations/>
     </Tab>
     <Tab id="tab-6" className="page-content" >
-      <Block>
-        <p>Animation</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
-          facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
-          suscipit temporibus sequi iure ad laboriosam accusamus?
-        </p>
-      </Block>
+      <Animation/>
     </Tab>
     <Tab id="tab-7" className="page-content" >
-      <Block>
-        <p>Delivery</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam enim quia molestiae
-          facilis laudantium voluptates obcaecati officia cum, sit libero commodi. Ratione illo
-          suscipit temporibus sequi iure ad laboriosam accusamus?
-        </p>
-      </Block>
+      <Delivery/>
     </Tab>
   </Tabs>
   </Page>
