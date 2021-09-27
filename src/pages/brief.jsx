@@ -25,7 +25,7 @@ const Brief = ({isCompleted = Math.round(Math.random())}) => {
         <p>The questionnaire contains about 40 questions and takes roughly 30 minutes to respond to. Make sure you have gathered all involved parties on your side when answering the questions in the brief. The more detailed the better it is!
 Click the link below to start the questionnaire.</p>
         <Button fill raised color="purple" onClick={openModal}>
-          <Icon f7="textbox" style={{marginRight:8}} slot="icon"></Icon>
+          <Icon f7="textbox" style={{marginRight:8}} slot="icon" size="small"></Icon>
           Open brief questionnaire
         </Button>
       </Block>}

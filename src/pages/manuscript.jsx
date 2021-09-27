@@ -22,7 +22,7 @@ const Manuscript = () => {
     <>
       <Block>
         <Button fill raised color="purple" onClick={openModal}>
-          <Icon f7="doc_plaintext" style={{marginRight:8}} slot="icon"></Icon>
+          <Icon f7="doc_plaintext" style={{marginRight:8}} slot="icon" size="small"></Icon>
           Open manuscript
         </Button>
       </Block>

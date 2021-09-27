@@ -30,7 +30,6 @@ const HomePage = () => {
     <Link
       style={{fontSize:tabFontSize}}
       tabLink="#tab-3"
-      iconF7="cod_plaintext"
       iconF7="music_mic"
       iconSize="medium"
     >Voiceover</Link>
