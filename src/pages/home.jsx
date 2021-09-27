@@ -43,7 +43,7 @@ const HomePage = () => {
     >
       Voiceover
       <Icon f7="music_mic" size="medium" slot="icon">
-        <Badge color="deeppurple" style={{marginLeft:0}}>
+        <Badge color="gray" style={{marginLeft:0}}>
           <Icon f7="lock" size="small" ></Icon>
         </Badge>
       </Icon>
@@ -54,7 +54,7 @@ const HomePage = () => {
     >
       Storyboard
       <Icon f7="photo" size="medium" slot="icon">
-        <Badge color="deeppurple" style={{marginLeft:0}}>
+        <Badge color="gray" style={{marginLeft:0}}>
           <Icon f7="lock" size="small" ></Icon>
         </Badge>
       </Icon>
@@ -65,7 +65,7 @@ const HomePage = () => {
     >
       Illustrations
       <Icon f7="doc_richtext" size="medium" slot="icon">
-        <Badge color="deeppurple" style={{marginLeft:0}}>
+        <Badge color="gray" style={{marginLeft:0}}>
           <Icon f7="lock" size="small" ></Icon>
         </Badge>
       </Icon>
@@ -76,7 +76,7 @@ const HomePage = () => {
     >
       Animation
       <Icon f7="play_rectangle" size="medium" slot="icon">
-        <Badge color="deeppurple" style={{marginLeft:0}}>
+        <Badge color="gray" style={{marginLeft:0}}>
           <Icon f7="lock" size="small" ></Icon>
         </Badge>
       </Icon>
@@ -87,7 +87,7 @@ const HomePage = () => {
     >
       Delivery
       <Icon f7="rocket" size="medium" slot="icon">
-        <Badge color="deeppurple" style={{marginLeft:0}}>
+        <Badge color="gray" style={{marginLeft:0}}>
           <Icon f7="lock" size="small" ></Icon>
         </Badge>
       </Icon>
