@@ -20,13 +20,12 @@ const Manuscript = () => {
   }
   return (
     <>
-      {!isCompleted && <Block>
-        
+      <Block>
         <Button fill raised color="purple" onClick={openModal}>
           <Icon f7="doc_plaintext" style={{marginRight:8}} slot="icon"></Icon>
           Open manuscript
         </Button>
-      </Block>}
+      </Block>
     </>
   );
 }
