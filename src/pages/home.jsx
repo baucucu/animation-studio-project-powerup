@@ -1,88 +1,19 @@
 import React from 'react';
-import {
-  Page,
-  Navbar,
-  NavLeft,
-  NavTitle,
-  NavTitleLarge,
-  NavRight,
-  Link,
-  Toolbar,
-  Block,
-  BlockTitle,
-  List,
-  ListItem,
-  Row,
-  Col,
-  Button
-} from 'framework7-react';
+import { Page, Navbar, Block, BlockTitle } from 'framework7-react';
 
 const HomePage = () => (
-  <Page name="home">
-    {/* Top Navbar */}
-    <Navbar large sliding={false}>
-      <NavLeft>
-        <Link iconIos="f7:menu" iconAurora="f7:menu" iconMd="material:menu" panelOpen="left" />
-      </NavLeft>
-      <NavTitle sliding>Animation Studio Trello Project PowerUp</NavTitle>
-      <NavRight>
-        <Link iconIos="f7:menu" iconAurora="f7:menu" iconMd="material:menu" panelOpen="right" />
-      </NavRight>
-      <NavTitleLarge>Animation Studio Trello Project PowerUp</NavTitleLarge>
-    </Navbar>
-    {/* Toolbar */}
-    <Toolbar bottom>
-      <Link>Left Link</Link>
-      <Link>Right Link</Link>
-    </Toolbar>
-    {/* Page content */}
+  <Page>
+    <BlockTitle>About My App</BlockTitle>
     <Block strong>
-      <p>Here is your blank Framework7 app. Let's see what we have here.</p>
+      <p>Fugiat perspiciatis excepturi, soluta quod non ullam deleniti. Nobis sint nemo consequuntur, fugiat. Eius perferendis animi autem incidunt vel quod tenetur nostrum, voluptate omnis quasi quidem illum consequuntur, a, quisquam.</p>
+      <p>Laudantium neque magnam vitae nemo quam commodi, in cum dolore obcaecati laborum, excepturi harum, optio qui, consequuntur? Obcaecati dolor sequi nesciunt culpa quia perspiciatis, reiciendis ex debitis, ut tenetur alias.</p>
     </Block>
-    <BlockTitle>Navigation</BlockTitle>
-    <List>
-      <ListItem link="/about/" title="About"/>
-      <ListItem link="/form/" title="Form"/>
-    </List>
-
-    <BlockTitle>Modals</BlockTitle>
     <Block strong>
-      <Row>
-        <Col width="50">
-          <Button fill raised popupOpen="#my-popup">Popup</Button>
-        </Col>
-        <Col width="50">
-          <Button fill raised loginScreenOpen="#my-login-screen">Login Screen</Button>
-        </Col>
-      </Row>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni molestiae laudantium dignissimos est nobis delectus nemo ea alias voluptatum architecto, amet similique, saepe iste consectetur in repellat ut minus quibusdam!</p>
+      <p>Molestias et distinctio porro nesciunt ratione similique, magni doloribus, rerum nobis, aliquam quae reiciendis quasi modi. Nam a recusandae, fugiat in ea voluptates fuga eius, velit corrupti reprehenderit dignissimos consequatur!</p>
+      <p>Blanditiis, cumque quo adipisci. Molestiae, dolores dolorum quos doloremque ipsa ullam eligendi commodi deserunt doloribus inventore magni? Ea mollitia veniam nostrum nihil, iusto doloribus a at! Ea molestiae ullam delectus!</p>
     </Block>
-
-    <BlockTitle>Panels</BlockTitle>
-    <Block strong>
-      <Row>
-        <Col width="50">
-          <Button fill raised panelOpen="left">Left Panel</Button>
-        </Col>
-        <Col width="50">
-          <Button fill raised panelOpen="right">Right Panel</Button>
-        </Col>
-      </Row>
-    </Block>
-
-    <List>
-      <ListItem
-        title="Dynamic (Component) Route"
-        link="/dynamic-route/blog/45/post/125/?foo=bar#about"
-      />
-      <ListItem
-        title="Default Route (404)"
-        link="/load-something-that-doesnt-exist/"
-      />
-      <ListItem
-        title="Request Data & Load"
-        link="/request-and-load/user/123456/"
-      />
-    </List>
   </Page>
 );
+
 export default HomePage;
