@@ -8,7 +8,16 @@ import Illustrations from './illustrations'
 import Animation from './animation'
 import Delivery from './delivery'
 
-const HomePage = () => {
+const HomePage = (props) => {
+  
+  const {
+    brief='completed',
+    manuscript='active',
+    voiceover='locked',
+    illustration='locked',
+    animation='locked',
+    
+  } = props
   const tabFontSize = '9px';
   
   return (
